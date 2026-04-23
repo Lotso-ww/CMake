@@ -12,7 +12,7 @@ add_executable(testAdd test.cpp)
 # 4. 集成单元测试
 include(CTest)
 add_test(
-    Name Case_Add
+    NAME Case_Add
     COMMAND testAdd
 )
 
@@ -22,3 +22,4 @@ install(TARGETS main)
 
 # 6. 打包
 include(CPack)
+# CPack默认手机install对应的目标，然后会把收集到的目标，打包在压缩包里

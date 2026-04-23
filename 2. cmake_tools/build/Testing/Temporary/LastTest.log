@@ -1,0 +1,19 @@
+Start testing: Apr 22 17:55 CST
+----------------------------------------------------------
+1/1 Testing: Case_Add
+1/1 Test: Case_Add
+Command: "/home/lotso/118/cmake/2. cmake_tools/build/testAdd"
+Directory: /home/lotso/118/cmake/2. cmake_tools/build
+"Case_Add" start time: Apr 22 17:55 CST
+Output:
+----------------------------------------------------------
+testAdd: /home/lotso/118/cmake/2. cmake_tools/test.cpp:7: int main(): Assertion `1 + 2 == 4' failed.
+<end of output>
+Test time =   1.16 sec
+----------------------------------------------------------
+Test Failed.
+"Case_Add" end time: Apr 22 17:55 CST
+"Case_Add" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Apr 22 17:55 CST
