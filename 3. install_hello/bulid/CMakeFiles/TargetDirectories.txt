@@ -1,0 +1,7 @@
+/home/lotso/118/cmake/3. install_hello/bulid/CMakeFiles/hello.dir
+/home/lotso/118/cmake/3. install_hello/bulid/CMakeFiles/edit_cache.dir
+/home/lotso/118/cmake/3. install_hello/bulid/CMakeFiles/rebuild_cache.dir
+/home/lotso/118/cmake/3. install_hello/bulid/CMakeFiles/list_install_components.dir
+/home/lotso/118/cmake/3. install_hello/bulid/CMakeFiles/install.dir
+/home/lotso/118/cmake/3. install_hello/bulid/CMakeFiles/install/local.dir
+/home/lotso/118/cmake/3. install_hello/bulid/CMakeFiles/install/strip.dir
