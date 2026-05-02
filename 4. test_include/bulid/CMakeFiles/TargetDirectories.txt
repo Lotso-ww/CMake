@@ -1,0 +1,2 @@
+/home/lotso/118/cmake/4. test_include/bulid/CMakeFiles/edit_cache.dir
+/home/lotso/118/cmake/4. test_include/bulid/CMakeFiles/rebuild_cache.dir
