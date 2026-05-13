@@ -1,0 +1,6 @@
+/home/lotso/118/cmake/6. test_target_link_libraries/build/CMakeFiles/main.dir
+/home/lotso/118/cmake/6. test_target_link_libraries/build/CMakeFiles/edit_cache.dir
+/home/lotso/118/cmake/6. test_target_link_libraries/build/CMakeFiles/rebuild_cache.dir
+/home/lotso/118/cmake/6. test_target_link_libraries/build/app/CMakeFiles/add.dir
+/home/lotso/118/cmake/6. test_target_link_libraries/build/app/CMakeFiles/edit_cache.dir
+/home/lotso/118/cmake/6. test_target_link_libraries/build/app/CMakeFiles/rebuild_cache.dir
