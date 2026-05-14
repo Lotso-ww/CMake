@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/main.dir/main.cpp.o -o main   -L/interface  -Wl,-rpath,"/interface:/home/lotso/118/cmake/7. test_set_target_properties/build/lib" lib/libadd.so.1.2.3 -ljsoncpp 

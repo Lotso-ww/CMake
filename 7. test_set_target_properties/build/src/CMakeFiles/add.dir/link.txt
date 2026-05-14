@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libadd.so.20 -o ../lib/libadd.so.1.2.3 CMakeFiles/add.dir/add.cpp.o   -L/public  -Wl,-rpath,"/home/lotso/118/cmake/7. test_set_target_properties/build/lib:/public" -lcurl 

@@ -1,0 +1,6 @@
+/home/lotso/118/cmake/7. test_set_target_properties/build/CMakeFiles/main.dir
+/home/lotso/118/cmake/7. test_set_target_properties/build/CMakeFiles/edit_cache.dir
+/home/lotso/118/cmake/7. test_set_target_properties/build/CMakeFiles/rebuild_cache.dir
+/home/lotso/118/cmake/7. test_set_target_properties/build/src/CMakeFiles/add.dir
+/home/lotso/118/cmake/7. test_set_target_properties/build/src/CMakeFiles/edit_cache.dir
+/home/lotso/118/cmake/7. test_set_target_properties/build/src/CMakeFiles/rebuild_cache.dir
