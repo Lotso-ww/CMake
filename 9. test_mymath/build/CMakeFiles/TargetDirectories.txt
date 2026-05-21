@@ -1,0 +1,3 @@
+/home/lotso/118/cmake/9. test_mymath/build/CMakeFiles/main.dir
+/home/lotso/118/cmake/9. test_mymath/build/CMakeFiles/edit_cache.dir
+/home/lotso/118/cmake/9. test_mymath/build/CMakeFiles/rebuild_cache.dir
