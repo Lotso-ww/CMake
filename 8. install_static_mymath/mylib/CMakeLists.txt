@@ -23,7 +23,7 @@ install(TARGETS MyMath
 
 # 6. 安装头文件
 install(DIRECTORY include/
-    DESTINATION ${CMAKE_INSTALL_INCLUDEDIE}/math # /usr/local/include/math/math.h
+    DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/math # /usr/local/include/math/math.h
     FILES_MATCHING PATTERN "*.h"
 )
 
@@ -36,20 +36,19 @@ export(EXPORT MyMathTargets
 install(EXPORT MyMathTargets
     FILE MyMathTargets.cmake
     NAMESPACE MyMath:: # MyMath::MyMath
-    DESTINATION ${CMAKE_INSTALL_LIBDIR}/camke/MyMath # /usr/local/lib/cmake/MyMath/MyMathTargets.cmake
+    DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake/MyMath # /usr/local/lib/cmake/MyMath/MyMathTargets.cmake
 )
 
 # 9. 生成 find_package 需要的配置文件
 include(CMakePackageConfigHelpers)
-configure_package_config_file 
-(
+configure_package_config_file (
     ${CMAKE_CURRENT_SOURCE_DIR}/Config.cmake.in
     ${CMAKE_CURRENT_BINARY_DIR}/MyMathConfig.cmake
     INSTALL_DESTINATION "lib/cmake/MyMath"
 )
 
 # 10. 安装配置文件到 cmake 标准的安装路径
-install(FILE
+install(FILES
     ${CMAKE_CURRENT_BINARY_DIR}/MyMathConfig.cmake
     DESTINATION "lib/cmake/MyMath"
 )

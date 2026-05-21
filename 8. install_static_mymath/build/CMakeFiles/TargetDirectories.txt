@@ -1,0 +1,13 @@
+/home/lotso/118/cmake/8. install_static_mymath/build/CMakeFiles/edit_cache.dir
+/home/lotso/118/cmake/8. install_static_mymath/build/CMakeFiles/rebuild_cache.dir
+/home/lotso/118/cmake/8. install_static_mymath/build/CMakeFiles/list_install_components.dir
+/home/lotso/118/cmake/8. install_static_mymath/build/CMakeFiles/install.dir
+/home/lotso/118/cmake/8. install_static_mymath/build/CMakeFiles/install/local.dir
+/home/lotso/118/cmake/8. install_static_mymath/build/CMakeFiles/install/strip.dir
+/home/lotso/118/cmake/8. install_static_mymath/build/mylib/CMakeFiles/MyMath.dir
+/home/lotso/118/cmake/8. install_static_mymath/build/mylib/CMakeFiles/edit_cache.dir
+/home/lotso/118/cmake/8. install_static_mymath/build/mylib/CMakeFiles/rebuild_cache.dir
+/home/lotso/118/cmake/8. install_static_mymath/build/mylib/CMakeFiles/list_install_components.dir
+/home/lotso/118/cmake/8. install_static_mymath/build/mylib/CMakeFiles/install.dir
+/home/lotso/118/cmake/8. install_static_mymath/build/mylib/CMakeFiles/install/local.dir
+/home/lotso/118/cmake/8. install_static_mymath/build/mylib/CMakeFiles/install/strip.dir
