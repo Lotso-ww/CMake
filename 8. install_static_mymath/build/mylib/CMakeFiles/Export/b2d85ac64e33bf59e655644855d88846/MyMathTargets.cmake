@@ -58,10 +58,6 @@ endif()
 # Create imported target MyMath::MyMath
 add_library(MyMath::MyMath STATIC IMPORTED)
 
-set_target_properties(MyMath::MyMath PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/ include"
-)
-
 # Load information for each installed configuration.
 file(GLOB _cmake_config_files "${CMAKE_CURRENT_LIST_DIR}/MyMathTargets-*.cmake")
 foreach(_cmake_config_file IN LISTS _cmake_config_files)

@@ -6,7 +6,7 @@ add_library(MyMath STATIC ${SRC_LISTS})
 
 # 3. 设置库的使用要求, 也就是下游消费者必须包含的头文件搜索路径
 target_include_directories(MyMath INTERFACE
-    "$<INSTALL_INTERFACE: ${CMAKE_INSTALL_INCLUDEDIR}>" # /usr/local/include
+    "$<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>" # /usr/local/include
 )
 
 # 4. 设置库的默认输出路径

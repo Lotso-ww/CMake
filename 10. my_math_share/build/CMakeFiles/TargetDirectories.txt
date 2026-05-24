@@ -1,0 +1,8 @@
+/home/lotso/118/cmake/10. my_math_share/build/CMakeFiles/edit_cache.dir
+/home/lotso/118/cmake/10. my_math_share/build/CMakeFiles/rebuild_cache.dir
+/home/lotso/118/cmake/10. my_math_share/build/my_lib/CMakeFiles/MyMath.dir
+/home/lotso/118/cmake/10. my_math_share/build/my_lib/CMakeFiles/edit_cache.dir
+/home/lotso/118/cmake/10. my_math_share/build/my_lib/CMakeFiles/rebuild_cache.dir
+/home/lotso/118/cmake/10. my_math_share/build/app/CMakeFiles/main.dir
+/home/lotso/118/cmake/10. my_math_share/build/app/CMakeFiles/edit_cache.dir
+/home/lotso/118/cmake/10. my_math_share/build/app/CMakeFiles/rebuild_cache.dir
