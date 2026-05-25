@@ -1,0 +1,19 @@
+Start testing: May 25 18:14 CST
+----------------------------------------------------------
+1/1 Testing: TestMyMath
+1/1 Test: TestMyMath
+Command: "/home/lotso/118/cmake/13. ctest_MyMath/build/main"
+Directory: /home/lotso/118/cmake/13. ctest_MyMath/build
+"TestMyMath" start time: May 25 18:14 CST
+Output:
+----------------------------------------------------------
+Test OK
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TestMyMath" end time: May 25 18:14 CST
+"TestMyMath" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 25 18:14 CST
