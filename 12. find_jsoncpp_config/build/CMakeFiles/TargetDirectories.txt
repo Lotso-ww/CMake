@@ -1,0 +1,3 @@
+/home/lotso/118/cmake/12. find_jsoncpp_config/build/CMakeFiles/main.dir
+/home/lotso/118/cmake/12. find_jsoncpp_config/build/CMakeFiles/edit_cache.dir
+/home/lotso/118/cmake/12. find_jsoncpp_config/build/CMakeFiles/rebuild_cache.dir
