@@ -1,15 +1,17 @@
 cmake_minimum_required(VERSION 3.18)
 
-project(MyMessage)
+project(FunctionDemo)
 
-message("begin CMakeLists.txt")
-message(STATUS "begin CMakeLists.txt")
+set(SCOP "Dictionary SCOP")
 
-message(STATUS "123")
-message(STATUS "1" "2" "3")
+function(print_var)
+    # 1. 获取父级目录变量
+    message("1 func: ${SCOP}")
+    # 2. 修改变量
+    # set(SCOP "Function SCOP")
+    set(SCOP "Function SCOP" PARENT_SCOPE)
+    message("2 func: ${SCOP}")
+endfunction(print_var)
 
-message(WARNING "this is a WARNING")
-# message(SEND_ERROR "this is a SEND_ERROR")
-# message(FATAL_ERROR "this is a FATAL_ERROR")
-
-message(STATUS "end CMakeLists.txt")
+print_var()
+message("3 main: ${SCOP}")
