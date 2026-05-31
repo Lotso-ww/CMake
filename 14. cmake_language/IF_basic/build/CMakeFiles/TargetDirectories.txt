@@ -1,0 +1,2 @@
+/home/lotso/118/cmake/14. cmake_language/IF_basic/build/CMakeFiles/edit_cache.dir
+/home/lotso/118/cmake/14. cmake_language/IF_basic/build/CMakeFiles/rebuild_cache.dir
