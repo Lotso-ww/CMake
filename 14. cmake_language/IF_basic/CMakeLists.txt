@@ -84,26 +84,26 @@ else()
     message("11: false")
 endif()
 
-# # 12 NOT
-# if(NOT "ON")
-#     message("12: true")
-# else()
-#     message("12: false")
-# endif()
+# 12 NOT
+if(NOT "ON")
+    message("12: true")
+else()
+    message("12: false")
+endif()
 
-# # 13 AND
-# if("ON"  AND  "OFF")
-#     message("13: true")
-# else()
-#     message("13: false")
-# endif()
+# 13 AND
+if("ON"  AND  "OFF")
+    message("13: true")
+else()
+    message("13: false")
+endif()
 
-# # 14 OR
-# if("ON"  OR  "OFF")
-#     message("14: true")
-# else()
-#     message("14: false")
-# endif()
+# 14 OR
+if("ON"  OR  "OFF")
+    message("14: true")
+else()
+    message("14: false")
+endif()
 
 # # 15 COMMAND 检测
 # if(COMMAND project)
