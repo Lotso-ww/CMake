@@ -143,26 +143,26 @@ else()
     message("19: false")
 endif()
 
-# # 20 file 文件存在性检测
-# if(EXISTS ${CMAKE_CURRENT_LIST_DIR}/main.cpp)
-#     message("20: true")
-# else()
-#     message("20: false")
-# endif()
+# 20 file 文件存在性检测
+if(EXISTS ${CMAKE_CURRENT_LIST_DIR}/main.cpp)
+    message("20: true")
+else()
+    message("20: false")
+endif()
 
-# # 21 file 文件存在性检测
-# if(EXISTS "")
-#     message("21: true")
-# else()
-#     message("21: false")
-# endif()
+# 21 file 文件存在性检测
+if(EXISTS "")
+    message("21: true")
+else()
+    message("21: false")
+endif()
 
-# # 22 file 文件存在性检测
-# if(EXISTS "./CMakeLists.txt")
-#     message("22: true")
-# else()
-#     message("22: false")
-# endif()
+# 22 file 文件存在性检测
+if(EXISTS "./CMakeLists.txt")
+    message("22: true")
+else()
+    message("22: false")
+endif()
 
 # # 23 实数比较
 # if("20" LESS "30")
