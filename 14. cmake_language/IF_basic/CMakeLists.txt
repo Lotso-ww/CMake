@@ -164,19 +164,19 @@ else()
     message("22: false")
 endif()
 
-# # 23 实数比较
-# if("20" LESS "30")
-#     message("23: true")
-# else()
-#     message("23: false")
-# endif()
+# 23 实数比较
+if("20" LESS "30")
+    message("23: true")
+else()
+    message("23: false")
+endif()
 
-# # 24 字符串比较
-# if("abc" STRLESS "abd")
-#     message("24: true")
-# else()
-#     message("24: false")
-# endif()
+# 24 字符串比较
+if("abc" STRLESS "abd")
+    message("24: true")
+else()
+    message("24: false")
+endif()
 
 # # 25 版本号比较
 # set(VERSION "1.2.3")
