@@ -105,43 +105,43 @@ else()
     message("14: false")
 endif()
 
-# # 15 COMMAND 检测
-# if(COMMAND project)
-#     message("15: true")
-# else()
-#     message("15: false")
-# endif()
+# 15 COMMAND 检测
+if(COMMAND project)
+    message("15: true")
+else()
+    message("15: false")
+endif()
 
-# # 16 target 检测
-# add_library(MyMath INTERFACE IMPORTED)
-# if(TARGET MyMath_static)
-#     message("16: true")
-# else()
-#     message("16: false")
-# endif()
+# 16 target 检测
+add_library(MyMath INTERFACE IMPORTED)
+if(TARGET MyMath_static)
+    message("16: true")
+else()
+    message("16: false")
+endif()
 
-# # 17 DEFINED  普通变量是否定义 检测
-# set(NAME "bit")
-# if(DEFINED NAME)
-#     message("17: true")
-# else()
-#     message("17: false")
-# endif()
+# 17 DEFINED  普通变量是否定义 检测
+set(NAME "bit")
+if(DEFINED NAME)
+    message("17: true")
+else()
+    message("17: false")
+endif()
 
-# # 18 DEFINED  缓存变量是否定义 检测
-# #set(AGE "18" CACHE STRING "age")
-# if(DEFINED CACHE{AGE})
-#     message("18: true")
-# else()
-#     message("18: false")
-# endif()
+# 18 DEFINED  缓存变量是否定义 检测
+set(AGE "18" CACHE STRING "age")
+if(DEFINED CACHE{AGE})
+    message("18: true")
+else()
+    message("18: false")
+endif()
 
-# # 19 DEFINED  环境变量是否定义 检测
-# if(DEFINED ENV{EMAIL})
-#     message("19: true")
-# else()
-#     message("19: false")
-# endif()
+# 19 DEFINED  环境变量是否定义 检测
+if(DEFINED ENV{EMAIL})
+    message("19: true")
+else()
+    message("19: false")
+endif()
 
 # # 20 file 文件存在性检测
 # if(EXISTS ${CMAKE_CURRENT_LIST_DIR}/main.cpp)
