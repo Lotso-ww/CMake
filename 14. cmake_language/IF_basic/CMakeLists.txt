@@ -178,10 +178,10 @@ else()
     message("24: false")
 endif()
 
-# # 25 版本号比较
-# set(VERSION "1.2.3")
-# if(VERSION VERSION_LESS "1.3.0")
-#     message("25: true")
-# else()
-#     message("25: false")
-# endif()
+# 25 版本号比较
+set(VERSION "1.2.3")
+if(VERSION VERSION_LESS "1.3.0")
+    message("25: true")
+else()
+    message("25: false")
+endif()
